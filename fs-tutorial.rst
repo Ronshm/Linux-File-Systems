@@ -70,8 +70,6 @@ Some code exercises
   
   TODO SPECIFY FS-s
 
-TODO ADD IMAGES TO RST
-
 2. Write a program that implement the following flow:
 
 .. image:: ./imgs/mount-ex1.jpg
