@@ -8,7 +8,7 @@ Linux fs intro
 
 3. Read partitions and memory overview [6]_
 
-  * Include exercises, try to answer by yourself.
+   - Include exercises, try to answer by yourself.
   
 4. Useful mounts maintain commands [8]_
 
