@@ -76,8 +76,8 @@ TODO ADD IMAGES TO RST
 
 .. image:: ./imgs/mount-ex1.jpg
 
-   Each validation should include relevant debug print.
-   Run your program, explain the output. 
+Each validation should include relevant debug print.
+Run your program, explain the output. 
    
 3. Add lazy umount right after mounting, as shown in mount_exercise2.jpg
    Run your program, explain the output. 
