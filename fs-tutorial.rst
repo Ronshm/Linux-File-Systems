@@ -74,11 +74,15 @@ TODO ADD IMAGES TO RST
 
 2. Write a program that implement the following flow shown in mount_exercise1.jpg
 
+.. image:: ./imgs/mount-ex1.jpg
+
    Each validation should include relevant debug print.
    Run your program, explain the output. 
    
 3. Add lazy umount right after mounting, as shown in mount_exercise2.jpg
    Run your program, explain the output. 
+
+.. image:: ./imgs/mount-ex2.jpg
 
 Ramfs and Tmpfs
 -------------------------------------------------
