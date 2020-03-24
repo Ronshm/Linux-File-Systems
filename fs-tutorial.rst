@@ -81,14 +81,15 @@ Some code exercises
 
   - btrfs
 
-2. Write a program that implement the following flow shown in mount_exercise1.jpg
+2. Write a program that implement the following flow:
 
 .. image:: ./imgs/mount-ex1.jpg
 
 Each validation should include relevant debug print.
 Run your program, explain the output. 
    
-3. Add lazy umount right after mounting, as shown in mount_exercise2.jpg
+3. Add lazy umount right after mounting, as shown here:
+
    Run your program, explain the output. 
 
 .. image:: ./imgs/mount-ex2.jpg
