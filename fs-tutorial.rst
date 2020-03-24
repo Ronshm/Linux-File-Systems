@@ -150,6 +150,7 @@ Snow B.V lipc2
 -------------------------------------------------
 
 https://www.lpi.org/our-certifications/exam-201-objectives 
+
 .. [10] Section 3 - file systems - http://lpic2.unix.nl/ 
 
 Fuse
