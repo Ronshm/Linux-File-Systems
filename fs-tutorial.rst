@@ -8,9 +8,13 @@ Linux fs intro
 
 3. Read partitions and memory overview [6]_
 
+   - This is background knowledge, do not mess too much with it.
+
    - Include exercises, try to answer by yourself.
   
 4. Useful mounts maintain commands [8]_
+ 
+   - The most relevant commands are df and du, put emphasis on them.
 
    - Include exercises, try to answer by yourself.
 
@@ -19,17 +23,17 @@ Linux fs intro
 Different file systems
 -------------------------------------------------
 
-1. Read “Branching out with mount” section in [2]_
-
-2. Read “Filesystem types” section in [2]_
+1. Read “Filesystem types” section in [2]_
 
    - The rest of [2]_ is optional (mostly partitions)
 
-3. Optional more practical explanation [7]_
+2. Optional more practical explanation [7]_
 
 Mount and unmount
 -------------------------------------------------
 1. Read about mount and umount [9]_
+
+   - The beginning is the relevant part, from "Mounting Filesystems on Bootup" forward it is less important for us.
 
    - Include exercises, try to answer by yourself.
 
@@ -54,7 +58,7 @@ Basic exercises
 Advanced programming in Unix 
 -------------------------------------------------
 
-1. Read section 4.14 in the book [13]_
+1. Read section 4.14 in the book [13]_. It describes the underlying mechanism, nice to know.
 
 2. Explain in your own words about the "unlink" function. Describe its potential effects.
 
@@ -97,13 +101,11 @@ Run your program, explain the output.
 Ramfs and Tmpfs
 -------------------------------------------------
 
-1. Read about ramfs [16]_
+1. Read about ramfs [16]_ and tmpfs [17]_ [18]_. Understand the usage and the mechanism.
 
-2. Read about tmpfs [17]_ [18]_
+2. Read about the differences [14]_ [15]_.
 
-3. Difference from ramfs [14]_ [15]_
-
-4. Bash exercises
+3. Bash exercises
 
    a) Mount a ramfs and a tmpfs file systems, specify size=10Mb.
 
@@ -111,7 +113,7 @@ Ramfs and Tmpfs
 
    c) Try to create another 6Mb file in both. Explain the results.
 
-5. Add support for tmpfs to your program at `Some code exercises`_/1
+4. Add support for tmpfs to your program at `Some code exercises`_/1
 
 
 
