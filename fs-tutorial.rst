@@ -12,7 +12,28 @@ Linux fs intro
   
 4. Useful mounts maintain commands [8]_
 
+   - Include exercises, try to answer by yourself.
+
    - Optional extra  [4]_
+ 
+Different file systems
+-------------------------------------------------
+
+1. Read “Branching out with mount” section in [2]_
+
+2. Read “Filesystem types” section in [2]_
+
+   - The rest of [2]_ is optional (mostly partitions)
+
+3. Optional more practical explanation [7]_
+
+Mount and unmount
+-------------------------------------------------
+1. Read about mount and umount [9]_
+
+   - Include exercises, try to answer by yourself.
+
+2. Optional extra [3]_
 
 Basic exercises
 -------------------------------------------------
@@ -29,37 +50,19 @@ Basic exercises
 5. Run "mount" and "df", and copy the relevant lines.
 
 6. Unmount your fs, validate that it has been removed using "mount" command.
-  
-Different file systems
--------------------------------------------------
-
-1. Read “Branching out with mount” section in [2]_
-
-2. Read “Filesystem types” section in [2]_
-
-   - The rest of [2]_ is optional (mostly partitions)
-
-3. Optional more practical explanation [7]_
-
-Mount and unmount
--------------------------------------------------
-1. Read about mount and umount [9]_
-
-2. Optional extra [3]_
-
+ 
 Advanced programming in Unix 
 -------------------------------------------------
 
-1. Read section 4.14 in the book [12]_
+1. Read section 4.14 in the book [13]_
 
-TODO ADD EXERCISES?
+2. Explain in your own words about the "unlink" function. Describe its potential effects.
 
+3. Explain The difference between hard link and symbolic link in file system level.
 
 Implement basic fs using FUSE 
 -------------------------------------------------
 1. Use FUSE [11]_ and implement your own file system.
-
-TODO MORE INSTRUCTIONS?
 
 Some code exercises 
 -------------------------------------------------
@@ -68,9 +71,15 @@ Some code exercises
   ./your_program <MOUNT_PATH> <FS_TYPE> <PATH_TO_FILE>
   Mounts new fs of type <FS_TYPE> (enum value) and copies the given file into it.
   
-  TODO SPECIFY FS-s
+  Your program should support the following file systems:
 
-TODO ADD IMAGES TO RST
+  - ext2
+
+  - ext3
+
+  - ext4
+
+  - btrfs
 
 2. Write a program that implement the following flow shown in mount_exercise1.jpg
 
@@ -94,9 +103,14 @@ Ramfs and Tmpfs
 3. Difference from ramfs [14]_ [15]_
 
 4. Bash exercises
-TODO add
 
-5. Add support for ramfs and tmpfs to your program at 6.a
+   a) Mount a ramfs and a tmpfs file systems, specify size=10Mb.
+
+   b) Try to create 6Mb file in both (using dd). Explain the results.
+
+   c) Try to create another 6Mb file in both. Explain the results.
+
+5. Add support for tmpfs to your program at `Some code exercises`_/1
 
 
 
@@ -142,15 +156,15 @@ Fuse
 
 .. [11] Create own file system using fuse - https://maastaar.net/fuse/linux/filesystem/c/2016/05/21/writing-a-simple-filesystem-using-fuse/
 
+.. [12] SSFS - an implementation example - https://github.com/MaaSTaaR/SSFS
+
 
 Advanced programming in unix
 ------------------------------------
 
-.. [12] PDF of the book - 
+.. [13] PDF of the book - 
 
 https://github.com/shihyu/Linux_Programming/blob/master/books/Advanced.Programming.in.the.UNIX.Environment.3rd.Edition.0321637739.pdf 
-
-.. [13]
 
 Ramfs and tmpfs - 
 -------------------------------------------------
