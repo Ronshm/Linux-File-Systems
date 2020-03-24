@@ -145,7 +145,7 @@ Run your program, explain the output.
 
 Answer:
 
-  The validations will fail. The second process don't have access to the new mount.
+  The validations will fail. The second process doesn't have access to the new mount.
 
 Ramfs and Tmpfs
 -------------------------------------------------
